@@ -1,7 +1,40 @@
-# fcitx5-nord-dark
+# fcitx5-nord
 
 Fcitx5 theme based on Nord color.
 
 ## Screenshot
 
-![screenshot](https://user-images.githubusercontent.com/29998228/97848462-16031780-1d2c-11eb-8243-8c8acd47e386.png)
+![light](./shot/light.png)
+
+![dark](./shot/dark.png)
+
+## Usage
+
+1. install
+
+   `git clone https://github.com/MiraculousMoon/fcitx5-nord.git`
+
+   `mkdir -p ~/.local/share/fcitx5/themes/`
+
+   `cd fcitx5-nord`
+
+   `cp -r nord-dark/ nord-light/ ~/.local/share/fcitx5/themes/`
+
+2. enable
+
+   `vim ~/.config/fcitx5/conf/classicui.conf`
+
+   change the theme to: 
+
+   `nord-dark` or `nord-light`
+
+3. restart fcitx5
+
+   `fcitx5 -r`
+
+   
+
+   
+
+   
+
