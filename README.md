@@ -10,24 +10,27 @@ Fcitx5 theme based on Nord color.
 
 ## Usage
 
-1. install
+### Installation
 
-   `git clone https://github.com/tonyfettes/fcitx5-nord.git`
+```sh
+git clone https://github.com/tonyfettes/fcitx5-nord.git
+mkdir -p ~/.local/share/fcitx5/themes/
+cd fcitx5-nord
+cp -r nord-dark/ nord-light/ ~/.local/share/fcitx5/themes/
+```
 
-   `mkdir -p ~/.local/share/fcitx5/themes/`
+### Enabling
 
-   `cd fcitx5-nord`
+In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` line as
 
-   `cp -r nord-dark/ nord-light/ ~/.local/share/fcitx5/themes/`
+```dosini
+Theme=Nord-Dark
+# or
+Theme=Nord-Light
+```
 
-2. enable
+Then restart fcitx5 to apply the theme.
 
-   `vim ~/.config/fcitx5/conf/classicui.conf`
-
-   change the theme to: 
-
-   `nord-dark` or `nord-light`
-
-3. restart fcitx5
-
-   `fcitx5 -r`
+```sh
+fcitx5 -r
+```
