@@ -1,4 +1,4 @@
-# fcitx5-nord-dark
+# fcitx5-nord
 
 Fcitx5 theme based on Nord color.
 
