@@ -12,7 +12,7 @@ Fcitx5 theme based on Nord color.
 
 1. install
 
-   `git clone https://github.com/MiraculousMoon/fcitx5-nord.git`
+   `git clone https://github.com/tonyfettes/fcitx5-nord.git`
 
    `mkdir -p ~/.local/share/fcitx5/themes/`
 
@@ -31,10 +31,3 @@ Fcitx5 theme based on Nord color.
 3. restart fcitx5
 
    `fcitx5 -r`
-
-   
-
-   
-
-   
-
